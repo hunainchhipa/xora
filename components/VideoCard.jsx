@@ -51,16 +51,7 @@ const VideoCard = ({
       </View>
 
       {play ? (
-        <View
-          className="w-full h-60 rounded-xl mt-3"
-          //   style={{
-          //     height: 120,
-          //     width: "100%",
-          //     backgroundColor: "rgba(255, 255, 255, 0.1)",
-          //     borderRadius: "12px",
-          //     overflow: "hidden",
-          //   }}
-        >
+        <View className="w-full h-60 rounded-xl mt-3">
           <VideoView
             style={{
               height: "100%",
